@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class ThreeWheeler {
+public class ThreeWheeler extends Car {
+    String name;
+    public void drive() {
+        System.out.println("brraaa");
+    }
 }

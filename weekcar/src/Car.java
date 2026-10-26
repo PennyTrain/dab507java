@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Car {
+public class Car extends Vehicle {
+    double engineSize = 1.4;
+    String colour;
 }

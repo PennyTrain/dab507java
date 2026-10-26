@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Car extends Vehicle {
+    public double engineSize;
+    public String color;
 
-public class Car {
+    public Car(double engineSize, String color) {
+        super();
+        this.engineSize = engineSize;
+        this.color = color;
+    }
+
+
 }
